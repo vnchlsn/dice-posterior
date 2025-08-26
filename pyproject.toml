@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dice_posterior"
+version = "1.0.0"
+description = "CSE587 Dice Posterior Assignment"
+authors = ["chase mateusiak <chase.mateusiak@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.25.2"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.0"
+autopep8 = "^2.0.2"
+flake8 = "^6.0.0"
+gradescope-utils = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
